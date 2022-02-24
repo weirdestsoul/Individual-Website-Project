@@ -25,7 +25,7 @@
       }
       .menu {
         width: 25%
-        float: left;
+        float: right;
         padding: 15px;
         border: 3px solid purple;
         color:white;
@@ -34,21 +34,34 @@
       }
       .main {
         width: 50%
-        float: left;
-        padding: 15px;
-        border: 3px solid purple;
-        color:white;
-        font-family: Comic Sans MS;
-        font-size: 1.5vw;
-      }
-      .footer {
-        width: 25%
         float: right;
         padding: 15px;
         border: 3px solid purple;
         color:white;
         font-family: Comic Sans MS;
         font-size: 1.5vw;
+        display: flex;
+
+      }
+      .aside {
+        width: 25%;
+        float: left;
+        padding: 15px;
+        border: 3px solid purple;
+        font-size: 1.5vw;
+        font-family: Comic Sans MS;
+        color: white;
+        display: flex;
+
+      }
+      .footer {
+        padding: 15px;
+        border: 3px solid purple;
+        color:white;
+        font-family: Comic Sans MS;
+        font-size: 1.5vw;
+        display: flex;
+
       }
     </style>
 
@@ -61,8 +74,10 @@
       <h3>A little About Me!</h3>
       <p>Hi! My name is Ahmed, I am 15 years old. I am Egyptian, my family and I immigrated here in 2010. I speak both Arabic and English. Some of my favorite things are my cats (links to their child pages below!) and my computer. The foods that I enjoy eating are Bamyia and Pad Thai. Some of my hobbies are playing video games and baking.</p>
     </nav>
-    <aside class="menu">
-    <p style="font-size: 2vw"><h2>Links to my cats Pages</h2></p>
+    <aside class="aside">
+      <p style="font-size: 2vw"><h2>Links to my cats Pages</h2></p>
+
+
     <ol>
       <li style="font-size: 2vw"><a href="childPages/bingo.html" target="_blank">Link for Bingo's page</a>
       <li style="font-size: 2vw"><a href="childPages/ivory.html" target="_blank">Link for Ivory's Page</a>
