@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
   <head>
     <!-- Used by Keyboard -->
     <meta charset="utf-8">
 
     <title> Bingo </title>
-
 
 <!-- Used by Google Search -->
     <meta name="author" content="Ahmed Mostafa">
@@ -13,16 +13,46 @@
     <meta name="keywords" content="About Me, HTML, Project, Cat, Bingo, Meow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style> //div {border: thin dotted blue;} </style>
-
+    <style> //div {border: thin dotted blue;}
+    .header {
+      border: 5px solid purple;
+      font-family: Comic Sans MS;
+      font-size: 1.5vw;
+      color:white;
+      float: left;
+    }
+    .menu {
+      width: 25%
+      float: right;
+      padding: 15px;
+      border: 3px solid purple;
+      color:white;
+      font-family: Comic Sans MS;
+      font-size: 1.5vw;
+      display: flex;
+    }
+    .main {
+      width: 75%
+      float: right;
+      padding: 15px;
+      border: 3px solid purple;
+      color:white;
+      font-family: Comic Sans MS;
+      font-size: 1.5vw;
+      display: flex;
+    }
+  </style>
   </head>
-  <body>
+  <body style="background-color:black">
 
-    <header><h2>About Bingo!</h2></header>
-    <nav></nav>
+    <header class="header"><h2>About Bingo!</h2></header>
+    <nav class="menu">
+    <p style="font-size: 2vw">This is my cat Bingo! He is the oldest out of my cats and will be six in the following August. He is very kind and likes to be around new people. One of his favorite activities is eating food and spilling the water in his bowl. He is sometimes a pain to deal with, but in his personality and chonky physic makes up for that!</p>
+    </nav>
     <aside></aside>
-    <section><article></article></section>
-<footer></footer>
+    <section class="main"><article>
+      <img src="../Images/bing.png" alt="Bingo!" width="512" height="512">
+    </article></section>
   </body>
 <footer>
   <p>&copy Ahmed Mostafa, powered by weirdestsoul in Github</p>
